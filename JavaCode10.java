@@ -33,7 +33,7 @@ public class JavaCode10 {
         // Replace characters
         stringBuilder.replace(11, 18, "Baeldung's");
         System.out.println("Replace characters =");
-        System.out.println(stringBuilder.toString());
+        System.out.println(stringBuilder.toString()); 
 
         // Delete characters
         stringBuilder.delete(42, 56);
